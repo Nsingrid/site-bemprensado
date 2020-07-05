@@ -1,0 +1,181 @@
+@import url(//db.onlinewebfonts.com/c/715bb9d0e93a7f704b8b07d5fcf88820?family=NK57+Monospace);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "NK57 Monospace";
+}
+
+::-webkit-scrollbar {
+  width: 0.7em;
+  height: 0.7em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #808080;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F6F8;
+  padding: 0 2px;
+}
+
+h1 {
+  color: #f9f2ea;
+  text-align: center;
+}
+
+header {
+  background-color: #222120;
+}
+
+nav {
+  background-color: #222120 !important;
+  padding: 10px 40px 0px 40px !important;
+}
+
+nav a {
+  color: #f9f2ea !important;
+  font-family: "NK57 Monospace";
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: italic;
+  letter-spacing: normal;
+}
+
+input.form-control.my-0.py-1.lime-border {
+  font-family: "NK57 Monospace" !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+  border: none;
+  border-radius: 0 !important;
+  background-color: #f9f2ea;
+}
+
+.btn-busca {
+  border-radius: 0 !important;
+  border: none;
+  background-color: #4ea32a;
+  color: #222120;
+}
+
+.logo {
+  width: 170px;
+}
+
+.navbar-nav {
+  padding-left: 40px;
+}
+
+.banner {
+  padding: 50px 0;
+  background-color: #4ea32a;
+}
+
+.podcast {
+  background-color: #222120;
+}
+
+.podcast h1 {
+  font-family: "NK57 Monospace";
+  color: #f9f2ea;
+  text-align: center;
+  padding: 25px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.podcast h3 {
+  color: #f9f2ea;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 40px;
+}
+
+.podcast h4 {
+  width: 200px;
+  height: 180px;
+  background-color: #4ea32a;
+}
+
+.sobre {
+  background-image: url("../assets/bgMaconha.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.sobre h2 {
+  color: #f9f2ea;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.sobre p {
+  color: #f9f2ea;
+  font-size: 18;
+}
+
+.videos {
+  background-color: #222120;
+  padding-bottom: 120px;
+}
+
+.videos h2 {
+  font-family: "NK57 Monospace";
+  color: #f9f2ea;
+  text-align: center;
+  padding: 25px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.videos h3 {
+  color: #f9f2ea;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 40px;
+}
+
+.videos .item-video {
+  width: 240px;
+  height: 150px;
+  background-color: #fff;
+}
+
+footer h5 {
+  color: #4ea32a;
+  font-size: 16px;
+}
+
+footer li a {
+  font-size: 14px;
+}
+
+footer a {
+  color: #222120;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #222120;
+}
+
+footer img {
+  padding-left: 15px;
+  width: 120px;
+}
+/*# sourceMappingURL=main.css.map */

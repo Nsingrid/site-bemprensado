@@ -1,0 +1,191 @@
+$verde: #4ea32a;
+$preto: #222120;
+$branco: #fff;
+
+$font: 'NK57 Monospace';
+$font-color: #f9f2ea;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+}
+
+::-webkit-scrollbar {
+  width: 0.7em;
+  height: 0.7em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #808080;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F6F8;
+  padding: 0 2px;
+}
+
+
+h1 {
+  color: $font-color;
+  text-align: center;
+}
+
+header {
+  background-color: $preto;
+}
+
+nav {
+  background-color: $preto !important;
+  padding: 10px 40px 0px 40px !important;
+
+}
+
+nav a {
+  color: $font-color !important;
+  font-family: $font;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: italic;
+  letter-spacing: normal;
+}
+
+input.form-control.my-0.py-1.lime-border {
+  font-family: $font !important;
+  font-weight: bold;
+}
+
+.nav-link {
+ margin-left: 20px !important;
+ margin-right: 20px !important;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+  border: none;
+  border-radius: 0 !important;
+  background-color: $font-color;
+}
+
+.btn-busca {
+  border-radius: 0 !important;
+  border: none;
+  background-color: $verde;
+  color: $preto;
+}
+
+.logo {
+  width: 170px;
+}
+
+.navbar-nav {
+  padding-left: 40px;
+}
+
+.banner {
+  padding: 50px 0;
+  background-color: $verde;
+}
+
+.podcast {
+  background-color: $preto;
+
+  h1 {
+    font-family: $font;
+    color: $font-color;
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  h3 {
+    color: $font-color;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 40px;
+  }
+
+  h4 {
+    width: 200px;
+    height: 180px;
+    background-color: $verde;
+  }
+}
+
+.sobre {
+  background-image: url('../assets/bgMaconha.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  h2 {
+    color: $font-color;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  
+  p {
+    color: $font-color;
+    font-size: 18;
+  }
+}
+
+.videos {
+  background-color: $preto;
+  padding-bottom: 120px;
+
+  h2 {
+    font-family: $font;
+    color: $font-color;
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  h3 {
+    color: $font-color;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 40px;
+  }
+
+  .item-video {
+    width: 240px;
+    height: 150px;
+    background-color: $branco;
+  }
+}
+
+footer {
+  h5 {
+    color: $verde;
+    font-size: 16px;
+  }
+
+  li a {
+    font-size: 14px;
+  }
+  
+  a {
+    color: $preto;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $preto;
+  }
+
+  img {
+    padding-left: 15px;
+    width: 120px;
+  }
+
+}
